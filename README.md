@@ -26,13 +26,13 @@
 * 관리 - 해당 테스트 코드의 결과가 이해하기 어렵고 다루기 어렵다.
 
 대부분은 Selenium을 사용한 e2e 테스트 도구들의 문제는 다음과 같았다.
-* 웹의 발전(Evolution) - AJAX의 등장으로 웹의 구조가 점점 더 복잡해졌다.
-* 비동기 코드(Async Code)
-* 구조(Architecture)
-* 제어(Control) - 개발자가 완전한 통제권을 가지지 못한다.
-* 속도(Speed) - 너무너무 느렸다.
+* 웹의 발전<sup>Evolution</sup> - AJAX의 등장으로 웹의 구조가 점점 더 복잡해졌다.
+* 비동기 코드<sup>Async Code</sup>
+* 구조<sup>Architecture</sup>
+* 제어<sup>Control</sup> - 개발자가 완전한 통제권을 가지지 못한다.
+* 속도<sup>Speed</sup> - 너무너무 느렸다.
 
-# 간단한 Vux X Cypress Tutorial
+# Cypress with Vue.js
 우선 `vue-cli`@3.x 버전을 사용하여 프로젝트를 구성하고, 추가 설정은 다음과 같이 해준다.
 ```shell
 $ vue create cypress-tutorial
@@ -102,3 +102,4 @@ $ yarn test:e2e
 
 ## References
 * 📹[Testing The Way It Should Be (aka Intro Into Cypress)](https://youtu.be/pJ349YntoIs)
+* 📹[Cypress Official Tutorial Videos](https://docs.cypress.io/examples/examples/tutorials.html#Best-Practices)
